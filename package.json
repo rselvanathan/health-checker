@@ -1,0 +1,15 @@
+{
+  "name": "health-checker",
+  "version": "1.0.0",
+  "description": "A small health check application for my personal projects",
+  "main": "src/app.js",
+  "scripts": {
+    "start" : "node ./src/app.js"
+  },
+  "author": "Romesh Selvanathan <romeshselvan@hotmail.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.10.0",
+    "request": "^2.79.0"
+  }
+}
